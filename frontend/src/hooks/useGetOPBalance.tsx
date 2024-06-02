@@ -54,7 +54,7 @@ export const useGetOPBalance = (address: any) => {
             ],
         };
 
-        wssProvider.getLogs({ ...depositfilter, fromBlock: 5850109 }).then((events) => {
+        wssProvider.getLogs({ ...depositfilter, fromBlock: 7787419 }).then((events) => {
             setDepositCount(events.length + 1);
         });
 
@@ -65,7 +65,7 @@ export const useGetOPBalance = (address: any) => {
             ],
         };
 
-        wssProvider.getLogs({ ...withdrawfilter, fromBlock: 5850109 }).then((events) => {
+        wssProvider.getLogs({ ...withdrawfilter, fromBlock: 7787419 }).then((events) => {
             setWithdrawCount(events.length + 1);
         });
 
@@ -76,7 +76,7 @@ export const useGetOPBalance = (address: any) => {
             ],
         };
 
-        wssProvider.getLogs({ ...feefilter, fromBlock: 5850109 }).then((events) => {
+        wssProvider.getLogs({ ...feefilter, fromBlock: 7787419 }).then((events) => {
             setFeeCount(events.length + 1);
         });
 
@@ -87,7 +87,7 @@ export const useGetOPBalance = (address: any) => {
             ],
         };
 
-        wssProvider.getLogs({ ...subfilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({ ...subfilter, fromBlock: 7787519 }).then((events) => {
             setSubCount(events.length + 1);
         });
 

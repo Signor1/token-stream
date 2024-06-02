@@ -63,7 +63,7 @@ const useGetUserSubscriptions = (address: any) => {
             topics: [ethers.id("SubscriptionStarted(address,uint256)")],
         };
 
-        wssProvider.getLogs({ ...subCreatedFilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({ ...subCreatedFilter, fromBlock: 7787519 }).then((events) => {
             setSubsCount(events.length + 1);
         });
 
@@ -72,7 +72,7 @@ const useGetUserSubscriptions = (address: any) => {
             topics: [ethers.id("SubscriptionPaused(address,uint256)")],
         };
 
-        wssProvider.getLogs({ ...subPausedFilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({ ...subPausedFilter, fromBlock: 7787519 }).then((events) => {
             setSubsPausedCount(events.length + 1);
         });
 
@@ -81,7 +81,7 @@ const useGetUserSubscriptions = (address: any) => {
             topics: [ethers.id("SubscriptionResumed(address,uint256)")],
         };
 
-        wssProvider.getLogs({ ...subResumedFilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({ ...subResumedFilter, fromBlock: 7787519 }).then((events) => {
             setSubsResumedCount(events.length + 1);
         });
 

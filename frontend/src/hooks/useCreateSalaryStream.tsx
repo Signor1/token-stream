@@ -40,6 +40,7 @@ const useCreateSalaryStream = (
     const formattedCsvData = csvData.map((item: any) => ({
       amount: ethers.parseUnits(item.amount, 18),
       recipient: item.recipient,
+      name: String(item.name)
     }));
 
     const toastId = toast.loading("Processing...", {

@@ -37,7 +37,7 @@ const useGetAllUsers = () => {
             topics: [ethers.id("MemberEnrolled(address,bytes)")],
         };
 
-        wssProvider.getLogs({ ...filter, fromBlock: 5812592 }).then((events) => {
+        wssProvider.getLogs({ ...filter, fromBlock: 7786949 }).then((events) => {
             setCount(events.length + 1);
         });
 

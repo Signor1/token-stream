@@ -123,7 +123,7 @@ const HandleForm = () => {
                         </>
                     )}
                 </CSVReader>
-                <small className="ml-1 mt-2 tracking-wider block text-sm text-gray-400">Upload csv file containing only this data - (amount and recipient address)</small>
+                <small className="ml-1 mt-2 tracking-wider block text-sm text-gray-400">Upload csv file containing only this data - (amount, recipient name and address)</small>
             </div>
 
             <div className="relative w-full font-barlow">
