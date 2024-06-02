@@ -57,6 +57,7 @@ Key tools used in the development of TRiver include:
 - Modal Contract: [Link](https://amoy.polygonscan.com/address/0xe65f9bfc05AEA49E0872167D97D7447bF0b49285)
 - Salary Streaming: [Link](https://amoy.polygonscan.com/address/0x942670D70846FCDC566E822c9857c22343c498a2)
 - Subscription Service: [Link](https://amoy.polygonscan.com/address/0x6BBCb0cBd4871EE953C54eAA095c2ba136957b01)
+- Chainlink automation transaction: [Link](https://amoy.polygonscan.com/tx/0xf721fd9ff6c16608619f53b33e6bce6d3462ab34b5d72f608a279e6fe22c85f8)
 
 ## License
 
@@ -64,4 +65,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries or feedback, please contact us at TRiver.
+For any inquiries or feedback, please contact us at [TRiver](token-river.vercel.app).
