@@ -72,6 +72,7 @@ const UserTable = () => {
             <TableHeader>
                 <TableRow className="hover:bg-transparent border-gray-600">
                     <TableHead className="w-[100px] font-barlow text-gray-200">S/N</TableHead>
+                    <TableHead className="font-barlow text-gray-200 ">Name</TableHead>
                     <TableHead className="font-barlow text-gray-200 ">Recipient</TableHead>
                     <TableHead className=" font-barlow text-gray-200">Amount</TableHead>
                     <TableHead className=" font-barlow text-gray-200">Interval</TableHead>
@@ -90,6 +91,7 @@ const UserTable = () => {
                 {filteredDaily?.map((user: any, index: number) => (
                     <TableRow key={index} className="hover:bg-gray-400 group border-gray-600 font-barlow">
                         <TableCell className="font-medium text-gray-400 group-hover:text-gray-800">{serialNumber++}</TableCell>
+                        <TableCell className="text-gray-400 group-hover:text-gray-800">{user.name}</TableCell>
                         <TableCell className="text-gray-400 group-hover:text-gray-800">{user.recipient}</TableCell>
                         <TableCell className=" text-gray-400 group-hover:text-gray-800">{user.amount}</TableCell>
                         <TableCell className=" text-gray-400 group-hover:text-gray-800">{user.intervalType === 1 ? "Daily" : "Monthly"}</TableCell>
@@ -118,6 +120,7 @@ const UserTable = () => {
                 {filteredMonthly?.map((user: any, index: number) => (
                     <TableRow key={index} className="hover:bg-gray-400 group border-gray-600 font-barlow">
                         <TableCell className="font-medium text-gray-400 group-hover:text-gray-800">{serialNumber++}</TableCell>
+                        <TableCell className="text-gray-400 group-hover:text-gray-800">{user.name}</TableCell>
                         <TableCell className="text-gray-400 group-hover:text-gray-800">{user.recipient}</TableCell>
                         <TableCell className=" text-gray-400 group-hover:text-gray-800">{user.amount}</TableCell>
                         <TableCell className=" text-gray-400 group-hover:text-gray-800">{user.intervalType === 1 ? "Daily" : "Monthly"}</TableCell>

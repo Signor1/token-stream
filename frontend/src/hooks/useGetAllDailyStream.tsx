@@ -25,9 +25,9 @@ const useGetAllDailyStream = () => {
                 startTime: item[4],
                 intervalType: Number(item[5]),
                 isactive: item[6],
-                streamer: item[7],
+                name: item[7],
+                streamer: item[8],
             }));
-            console.log(converted);
             setData(converted);
         } catch (error) {
             console.error(error);

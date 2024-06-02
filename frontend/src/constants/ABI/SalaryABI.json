@@ -122,6 +122,11 @@
             {
                 "components": [
                     {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
                         "internalType": "address",
                         "name": "recipient",
                         "type": "address"
@@ -191,6 +196,11 @@
                 "internalType": "bool",
                 "name": "active",
                 "type": "bool"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
             },
             {
                 "internalType": "address",
@@ -270,6 +280,11 @@
                         "type": "bool"
                     },
                     {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
                         "internalType": "address",
                         "name": "streamOwner",
                         "type": "address"
@@ -323,6 +338,11 @@
                         "internalType": "bool",
                         "name": "active",
                         "type": "bool"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
                     },
                     {
                         "internalType": "address",
@@ -395,6 +415,11 @@
                 "internalType": "bool",
                 "name": "active",
                 "type": "bool"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
             },
             {
                 "internalType": "address",
@@ -520,6 +545,11 @@
                 "internalType": "bool",
                 "name": "active",
                 "type": "bool"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
             },
             {
                 "internalType": "address",
